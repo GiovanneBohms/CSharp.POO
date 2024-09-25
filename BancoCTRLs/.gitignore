@@ -1,0 +1,61 @@
+
+# Build e diretórios de saída
+bin/
+obj/
+
+# Arquivos de log
+*.log
+
+# Arquivos de configuração do Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+
+# Configurações de layout do Visual Studio
+*.csproj.user
+*.csproj.nuget.g.props
+*.csproj.nuget.g.targets
+
+# Diretórios de pacotes NuGet
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Arquivos temporários e backups
+*_i.c
+*_p.c
+*_i.h
+*.ilk
+*.meta
+*.obj
+*.pch
+*.pdb
+*.pgc
+*.pgd
+*.rsp
+*.sbr
+*.tlb
+*.tli
+*.tlh
+*.tmp
+*.tmp_proj
+*.log
+*.vspscc
+*.vssscc
+
+# Arquivos de cache e de configuração temporários
+.vscode/
+.idea/
+
+# Diretório de teste
+TestResults/
+
+# Configurações de assinatura de assembly
+*.snk
+
+# Certificados de desenvolvimento temporários
+*.pfx
+*.p12
