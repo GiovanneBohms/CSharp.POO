@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoCTRLs", "BancoCTRLs\BancoCTRLs.csproj", "{6AF154FF-B307-4F29-A5B6-4A21088651DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoCTRLs", "BancoCTRLs\BancoCTRLs.csproj", "{0C48F0DF-3112-443D-9470-BBED062B7A34}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{6AF154FF-B307-4F29-A5B6-4A21088651DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6AF154FF-B307-4F29-A5B6-4A21088651DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6AF154FF-B307-4F29-A5B6-4A21088651DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6AF154FF-B307-4F29-A5B6-4A21088651DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C48F0DF-3112-443D-9470-BBED062B7A34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C48F0DF-3112-443D-9470-BBED062B7A34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C48F0DF-3112-443D-9470-BBED062B7A34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C48F0DF-3112-443D-9470-BBED062B7A34}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {D3D7608B-E984-496A-9D3A-B1B66AD060EB}
+		SolutionGuid = {804B9429-B46E-498A-83ED-A72430FF05D6}
 	EndGlobalSection
 EndGlobal
