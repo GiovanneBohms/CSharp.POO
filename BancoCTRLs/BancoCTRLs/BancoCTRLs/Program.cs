@@ -191,41 +191,40 @@ string[,] plataforma = GeraPlataformaDeAray();
 
 
 void MovimentaLetra() {
-    int[] coordenadas = new int[4];
+   
     int y = 10;
     int x = 10;
-    int xa = 10;
-    int ya = 10;
+  
     
     while (true)
     {
         var tecla = Console.ReadKey(true);
 
-        if(tecla.Key == ConsoleKey.W)
+        if(tecla.Key == ConsoleKey.W && y>1)
         {
-            ya = y;
+         
             y--;
             Console.Clear();
             renderizaPlataforma(plataforma,x,y);
         }
-        if (tecla.Key == ConsoleKey.S)
+        if (tecla.Key == ConsoleKey.S && y < tamanhoDaPlataforma-2)
         {
-            ya = y;
+        
             y++;
             Console.Clear();
             renderizaPlataforma(plataforma, x, y);
         }
 
-        if (tecla.Key == ConsoleKey.A )
+        if (tecla.Key == ConsoleKey.A && x>1)
         {
-            xa = x;
+          
             x--;
             Console.Clear();
             renderizaPlataforma(plataforma, x, y);
         }
-        if (tecla.Key == ConsoleKey.D)
+        if (tecla.Key == ConsoleKey.D && x< tamanhoDaPlataforma-2)
         {
-            xa = x;
+           
             x++;
             Console.Clear();
             renderizaPlataforma(plataforma, x, y);
