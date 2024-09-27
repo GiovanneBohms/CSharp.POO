@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33801.468
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancoCTRLs", "BancoCTRLs\BancoCTRLs.csproj", "{0C48F0DF-3112-443D-9470-BBED062B7A34}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BancoCTRLs", "BancoCTRLs\BancoCTRLs.csproj", "{0C48F0DF-3112-443D-9470-BBED062B7A34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Classes", "Classes", "{CC16ECC7-7078-4DFA-8936-F0BC70AF15D4}"
+	ProjectSection(SolutionItems) = preProject
+		Plataforma2D.cs = Plataforma2D.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
